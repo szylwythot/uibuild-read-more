@@ -1,0 +1,44 @@
+body{
+    background-color: #FFEEDF;
+    place-items: center;
+}
+section{
+    place-items: center;
+}
+
+div{
+    /* First possibility to put the button in the middle */
+    place-items: center;  
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#aButton{
+    display: block;
+    display: flex;
+    background-color: #1C5A4E;
+    color : #FFEEDF;
+
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    text-align: center;
+    line-height: 0;
+    padding-bottom: 22px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+
+    /*second possibility to put the button in the middle */
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size:  200px ;
+    font-family: 'Montserrat', sans-serif;
+}
